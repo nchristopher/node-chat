@@ -1,7 +1,7 @@
 window.onload = function() {
  
     var messages = [];
-    var socket = io.connect('http://localhost:3100');
+    var socket = io.connect('http://node-chat-christopher.herokuapp.com');
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
