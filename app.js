@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -32,7 +31,6 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/users', user.list);
-
 server.listen(port);
 
 io.sockets.on('connection', function (socket) {
